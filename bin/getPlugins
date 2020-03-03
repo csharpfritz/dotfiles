@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# Omnisharp
+git clone git://github.com/OmniSharp/omnisharp-vim ~/.vim/pack/plugins/start/omnisharp-vim
+
+# NERDTree
+git clone https://github.com/preservim/nerdtree.git ~/.vim/pack/vendor/start/nerdtree
+vim -u NONE -c "helptags ~/.vim/pack/vendor/start/nerdtree/doc" -c q
+
+# EditorConfig
+git clone https://github.com/editorconfig/editorconfig-vim.git ~/.vim/pack/local/start
