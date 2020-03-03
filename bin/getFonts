@@ -8,3 +8,10 @@ wget -O ~/Fonts/papyrus.ttf https://img.download-free-fonts.com/dl.php?id=89786&
 
 # Cascadia Code
 wget -O ~/Fonts/Cascadia.ttf https://github.com/microsoft/cascadia-code/releases/download/v1911.21/Cascadia.ttf 
+
+# Jetbrains Mono
+wget -O ~/Fonts/JetbrainsMono.zip https://github.com/JetBrains/JetBrainsMono/releases/download/v1.0.3/JetBrainsMono-1.0.3.zip
+unzip ~/Fonts/JetbrainsMono.zip -d ~/Fonts
+mv ~/Fonts/JetBrainsMono-1.0.3-Source/ttf/* ~/Fonts
+rm -rf ~/Fonts/JetBrainsMono-1.0.3-Source
+rm ~/Fonts/JetbrainsMono.zip 
