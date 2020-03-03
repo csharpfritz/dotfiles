@@ -1,0 +1,10 @@
+#!/bin/sh
+
+echo "Getting Fonts..."
+mkdir ~/Fonts
+
+# Papyrus
+wget -O ~/Fonts/papyrus.ttf https://img.download-free-fonts.com/dl.php?id=89786&hash=4356adc4fd6ae9e1e32926682ef43287
+
+# Cascadia Code
+wget -O ~/Fonts/Cascadia.ttf https://github.com/microsoft/cascadia-code/releases/download/v1911.21/Cascadia.ttf 
