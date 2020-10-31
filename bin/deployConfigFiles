@@ -2,11 +2,13 @@
 
 rm -f ~/.bashrc
 rm -f ~/.gitconfig
+rm -f ~/.gitmux.conf
 rm -f ~/.tmux.conf
 rm -f ~/.vimrc
 
 cd ~
 ln -s dev/dotfiles/.bashrc .bashrc 
 ln -s dev/dotfiles/.gitconfig .gitconfig
+ln -s dev/dotfiles/.gitmux.conf .gitmux.conf
 ln -s dev/dotfiles/.tmux.conf .tmux.conf
 ln -s dev/dotfiles/.vimrc .vimrc
