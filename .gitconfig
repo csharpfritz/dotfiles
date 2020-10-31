@@ -1,3 +1,7 @@
 [user]
 	email = csharpfritz@users.noreply.github.com
 	name = Jeffrey T. Fritz
+[fetch]
+	prune = true
+[core]
+	editor = vim
