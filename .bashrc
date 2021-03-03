@@ -124,3 +124,4 @@ fi
 
 # Add local binaries
 export PATH=$PATH:~/.local/bin
+source /usr/lib/kfocus-001/lib/qwe.source

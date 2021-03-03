@@ -4,3 +4,7 @@ tar xzf gitmux.tar.gz
 cp gitmux /usr/local/bin
 rm gitmux
 rm gitmux.tar.gz
+
+# Install Tmux Plugin Manager
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
