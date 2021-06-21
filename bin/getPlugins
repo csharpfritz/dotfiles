@@ -3,6 +3,13 @@
 # Omnisharp
 git clone git://github.com/OmniSharp/omnisharp-vim ~/.vim/pack/plugins/start/omnisharp-vim
 
+# ALE
+git clone --depth 1 https://github.com/dense-analysis/ale.git ~/.vim/pack/git-plugins/start/ale
+
+# SuperTab
+git clone --depth=1 https://github.com/ervandew/supertab.git ~/.vim/pack/plugins/start/supertab
+
+
 # NERDTree
 git clone https://github.com/preservim/nerdtree.git ~/.vim/pack/vendor/start/nerdtree
 vim -u NONE -c "helptags ~/.vim/pack/vendor/start/nerdtree/doc" -c q
